@@ -926,7 +926,7 @@
     font-size: 4rem;
     font-family: sans-serif;
     line-height: 100vh;
-    animation: Talha 0s ease-in 1.5s;
+    animation: Talha 0s ease-in 100000.5s;
     animation-fill-mode: forwards;
     background-color: black;
   }
@@ -938,7 +938,7 @@
     }
   }
   .T{
-    margin-left: 510px;
+    margin-left: 850px;
     position: relative;
     animation-name: T;
     animation-duration: .5s;
