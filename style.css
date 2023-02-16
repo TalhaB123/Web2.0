@@ -164,7 +164,7 @@
       font-weight: 500;
     }
     .Talha{
-      margin-right: 200px;
+      margin-left: -200px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -348,6 +348,98 @@
   }
   }
   @media only screen and (max-width: 800px){
+    .Talha{
+      margin-left: -820px;
+      width: 100px;
+      height: 100px;
+      color: rgb(255, 255, 255);
+      font-size: 4rem;
+      font-family: sans-serif;
+      text-align: center;
+      line-height: 90vh;
+      animation: Talha 0s ease-in 1.5s;
+      animation-fill-mode: forwards;
+      background-color: black;
+    }
+    @keyframes Talha{
+      to{
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+    }
+    .T{
+      position: relative;
+      animation-name: T;
+      animation-duration: .5s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes T  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 10px;}
+    }
+    .a{
+      position: relative;
+      animation-name: a;
+      animation-duration: .6s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes a  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 20px;}
+    }
+    .l{
+      position: relative;
+      animation-name: l;
+      animation-duration: .7s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes l  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 30px;}
+  }
+    .h{
+      position: relative;
+      animation-name: h;
+      animation-duration: .8s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes h {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 40px;}
+  }
+    .b {
+      position: relative;
+      animation-name: b;
+      animation-duration: .9s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes b {
+      20%{bottom: 20px; }
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 50px;}
+  }
+  }
+  @media only screen and (max-width: 750px){
     .Talha{
       margin-left: -820px;
       width: 100px;
@@ -726,7 +818,7 @@
   }
   @media only screen and (max-width: 470px){
     .Talha{
-      margin-left: -760px;
+      margin-left: -790px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -821,7 +913,7 @@
   }
   @media only screen and (max-width: 423px){
     .Talha{
-      margin-left: -880px;
+      margin-left: -80px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -916,7 +1008,7 @@
   }
   @media only screen and (max-width: 2200px){
     .Talha{
-      margin-left: -220px;
+      margin-left: -120px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -1006,7 +1098,7 @@
 }
   @media only screen and (max-width: 1700px){
     .Talha{
-      margin-left: -400px;
+      margin-left: -250px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -1096,7 +1188,7 @@
 }
   @media only screen and (max-width: 1450px){
     .Talha{
-      margin-left: -730px;
+      margin-left: -330px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -1368,7 +1460,7 @@
 
 
   .Talha{
-    width: 2000px;
+    width: 2140px;
     height: 1020px;
     color: rgb(255, 255, 255);
     font-size: 4rem;
