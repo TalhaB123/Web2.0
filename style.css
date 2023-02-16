@@ -41,7 +41,7 @@
     height: 0px;
   }
   .Talha{
-    margin-left: -940px;
+    margin-left: -920px;
     color: rgb(255, 255, 255);
     font-size: 4rem;
     font-family: sans-serif;
@@ -59,6 +59,7 @@
     }
   }
   .T{
+    right: 100px;
     position: relative;
     animation-name: T;
     animation-duration: 1000000.5s;
@@ -164,13 +165,14 @@
       font-weight: 500;
     }
     .Talha{
-      margin-left: -200px;
+      width: 100px;
+      margin-left: -770px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
       text-align: center;
       line-height: 90vh;
-      animation: Talha 0s ease-in .5s;
+      animation: Talha 0s ease-in 1.5s;
       animation-fill-mode: forwards;
       background-color: black;
     }
@@ -181,8 +183,7 @@
           height: 0;
       }
     }
-    .T{
-      right: 290px;
+    .T{right: 100px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -461,6 +462,7 @@
       }
     }
     .T{
+      right: 100px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -533,7 +535,7 @@
   }
   @media only screen and (max-width: 685px){
     .Talha{
-      margin-left: -780px;
+      margin-left: -70px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -551,7 +553,7 @@
       }
     }
     .T{
-      right: 150px;
+      right: 100px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -818,7 +820,7 @@
   }
   @media only screen and (max-width: 470px){
     .Talha{
-      margin-left: -790px;
+      margin-left: -770px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
@@ -836,7 +838,7 @@
       }
     }
     .T{
-      right: 270px;
+      right: 100px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -851,7 +853,6 @@
       100%{bottom: 10px;}
     }
     .a{
-      right: 270px;
       position: relative;
       animation-name: a;
       animation-duration: .6s;
@@ -866,7 +867,6 @@
       100%{bottom: 20px;}
     }
     .l{
-      right: 270px;
       position: relative;
       animation-name: l;
       animation-duration: .7s;
@@ -881,7 +881,6 @@
       100%{bottom: 30px;}
   }
     .h{
-      right: 270px;
       position: relative;
       animation-name: h;
       animation-duration: .8s;
@@ -896,7 +895,6 @@
       100%{bottom: 40px;}
   }
     .b {
-      right: 270px;
       position: relative;
       animation-name: b;
       animation-duration: .9s;
@@ -913,13 +911,11 @@
   }
   @media only screen and (max-width: 423px){
     .Talha{
-      margin-left: -80px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
-      text-align: center;
-      line-height: 90vh;
-      animation: Talha 0s ease-in .5s;
+      line-height: 100vh;
+      animation: Talha 0s ease-in 100000.5s;
       animation-fill-mode: forwards;
       background-color: black;
     }
@@ -931,7 +927,7 @@
       }
     }
     .T{
-      right: 290px;
+      right: 100px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -946,7 +942,6 @@
       100%{bottom: 10px;}
     }
     .a{
-      right: 290px;
       position: relative;
       animation-name: a;
       animation-duration: .6s;
@@ -961,7 +956,6 @@
       100%{bottom: 20px;}
     }
     .l{
-      right: 290px;
       position: relative;
       animation-name: l;
       animation-duration: .7s;
@@ -976,7 +970,6 @@
       100%{bottom: 30px;}
   }
     .h{
-      right: 290px;
       position: relative;
       animation-name: h;
       animation-duration: .8s;
@@ -991,7 +984,6 @@
       100%{bottom: 40px;}
   }
     .b {
-      right: 290px;
       position: relative;
       animation-name: b;
       animation-duration: .9s;
@@ -1466,7 +1458,7 @@
     font-size: 4rem;
     font-family: sans-serif;
     line-height: 100vh;
-    animation: Talha 0s ease-in 100000.5s;
+    animation: Talha 0s ease-in 10000.2s;
     animation-fill-mode: forwards;
     background-color: black;
   }
