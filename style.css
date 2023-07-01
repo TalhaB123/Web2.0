@@ -1073,7 +1073,7 @@
       }
     }
     .T{
-    right: 360px;
+      right: 360px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
