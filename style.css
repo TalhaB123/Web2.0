@@ -1043,6 +1043,7 @@
   @media only screen and (max-width: 423px){
     body {
       background-color: aliceblue;
+      width: 423px;
     }
     .Talha{
       width: 423px;
