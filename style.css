@@ -1598,7 +1598,7 @@
     font-size: 4rem;
     font-family: sans-serif;
     line-height: 100vh;
-    animation: Talha 0s ease-in 1000.2s;
+    animation: Talha 0s ease-in 1.2s;
     animation-fill-mode: forwards;
     background-color: black;
   }
