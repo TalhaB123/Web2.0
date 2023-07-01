@@ -1043,9 +1043,9 @@
   @media only screen and (max-width: 423px){
     body {
       background-color: aliceblue;
-
     }
     .Talha{
+      width: 423px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
