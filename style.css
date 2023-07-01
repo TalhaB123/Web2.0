@@ -1063,7 +1063,7 @@
       }
     }
     .T{
-    right: 350px;
+    right: 360px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -1078,7 +1078,7 @@
       100%{bottom: 10px;}
     }
     .a{
-      right: 350px;
+      right: 360px;
       position: relative;
       animation-name: a;
       animation-duration: .6s;
@@ -1093,7 +1093,7 @@
       100%{bottom: 20px;}
     }
     .l{
-      right: 350px;
+      right: 360px;
       position: relative;
       animation-name: l;
       animation-duration: .7s;
@@ -1108,7 +1108,7 @@
       100%{bottom: 30px;}
   }
     .h{
-      right: 350px;
+      right: 360px;
       position: relative;
       animation-name: h;
       animation-duration: .8s;
@@ -1123,7 +1123,7 @@
       100%{bottom: 40px;}
   }
     .b {
-      right: 350px;
+      right: 360px;
       position: relative;
       animation-name: b;
       animation-duration: .9s;
