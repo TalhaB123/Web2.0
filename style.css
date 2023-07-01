@@ -1,9 +1,11 @@
  @media only screen and (max-width: 630px){
   body {
     background-color: aliceblue;
+    height: 1246px;
     width: 630px;
   }
   .hamburger{
+    right: 80px;
     bottom: 30px;
     float: right;
     display: block;
@@ -18,7 +20,7 @@
   .hamburger span{
     display: block;
     width: 32px;
-    height: 4px;
+    height: 5px;
     margin-bottom: 5px;
     position: relative;
     background-color: azure;
@@ -44,8 +46,13 @@
     width: 0px;
     height: 0px;
   }
+  .sect1{
+    background-color: #585858;
+    width: 630px;
+    min-height: 1246px;
+  }
   .Talha{
-    margin-left: -920px;
+    width: 630px;
     color: rgb(255, 255, 255);
     font-size: 4rem;
     font-family: sans-serif;
@@ -140,6 +147,8 @@
       margin-top: 10px;
     }
     .hamburger span{
+      bottom: 3px;
+      right: 200px;
       display: block;
       width: 32px;
       height: 4px;
@@ -168,17 +177,18 @@
       font-size: 25px;
       font-weight: 500;
     }
+    body {
+      background-color: aliceblue;
+      width: 350px;
+    }
     .Talha{
-      width: 100px;
-      margin-left: -770px;
+      min-width: 350px;
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
-      text-align: center;
       line-height: 90vh;
       animation: Talha 0s ease-in 1.5s;
       animation-fill-mode: forwards;
-      background-color: black;
     }
     @keyframes Talha{
       to{
@@ -187,7 +197,7 @@
           height: 0;
       }
     }
-    .T{right: 100px;
+    .T{
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -1753,5 +1763,5 @@ nav{
 }
 .sect1{
   background-color: #585858;
-  height: 965px;
+  height: 1000px;
 }
