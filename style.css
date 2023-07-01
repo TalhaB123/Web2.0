@@ -1,4 +1,8 @@
  @media only screen and (max-width: 630px){
+  body {
+    background-color: aliceblue;
+    width: 630px;
+  }
   .hamburger{
     bottom: 30px;
     float: right;
@@ -62,7 +66,7 @@
     right: 100px;
     position: relative;
     animation-name: T;
-    animation-duration: 1000000.5s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     cursor: pointer;
   }
@@ -76,7 +80,7 @@
   .a{
     position: relative;
     animation-name: a;
-    animation-duration: 1000000.6s;
+    animation-duration: 1.6s;
     animation-timing-function: linear;
     cursor: pointer;
   }
@@ -90,7 +94,7 @@
   .l{
     position: relative;
     animation-name: l;
-    animation-duration: 1000000.7s;
+    animation-duration: 1.7s;
     animation-timing-function: linear;
     cursor: pointer;
   }
@@ -104,7 +108,7 @@
   .h{
     position: relative;
     animation-name: h;
-    animation-duration: 1000000.8s;
+    animation-duration: 1.8s;
     animation-timing-function: linear;
     cursor: pointer;
   }
@@ -118,7 +122,7 @@
   .b {
     position: relative;
     animation-name: b;
-    animation-duration: 1000000.9s;
+    animation-duration: 1.9s;
     animation-timing-function: linear;
     cursor: pointer;
   }
@@ -184,6 +188,134 @@
       }
     }
     .T{right: 100px;
+      position: relative;
+      animation-name: T;
+      animation-duration: .5s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes T  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 10px;}
+    }
+    .a{
+      right: 290px;
+      position: relative;
+      animation-name: a;
+      animation-duration: .6s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes a  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 20px;}
+    }
+    .l{
+      right: 290px;
+      position: relative;
+      animation-name: l;
+      animation-duration: .7s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes l  {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 30px;}
+  }
+    .h{
+      right: 290px;
+      position: relative;
+      animation-name: h;
+      animation-duration: .8s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes h {
+      20%{bottom: 20px;}
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 40px;}
+  }
+    .b {
+      right: 290px;
+      position: relative;
+      animation-name: b;
+      animation-duration: .9s;
+      animation-timing-function: linear;
+      cursor: pointer;
+    }
+    @keyframes b {
+      20%{bottom: 20px; }
+      40%{bottom: 40px;}
+      60%{bottom: 60px;}
+      80%{bottom: 80px;}
+      100%{bottom: 50px;}
+  }
+  }
+  @media only screen and (max-width: 327px){
+    .hamburger{
+      float: right;
+      margin-top: 10px;
+    }
+    .hamburger span{
+      display: block;
+      width: 32px;
+      height: 4px;
+      margin-bottom: 3px;
+      position: relative;
+      background-color: azure;
+      border-radius: 50px;
+      z-index: 1;
+      transform-origin: 0 0;
+      transition:0.4s;
+    }
+    .change.hamburger span:nth-child(1){
+      transform: translatey(8px);
+      background-color: rgb(66, 66, 66);
+    }
+    .change.hamburger span:nth-child(2){
+      background-color: rgb(66, 66, 66);
+    }
+    .change.hamburger span:nth-child(3){
+      transform: translatey(-8px);
+      background-color: rgb(66, 66, 66);
+    }
+    .hed1{
+      margin-top: 1px;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .Talha{
+      width: 150px;
+      margin-left: -770px;
+      color: rgb(255, 255, 255);
+      font-size: 4rem;
+      font-family: sans-serif;
+      text-align: center;
+      line-height: 90vh;
+      animation: Talha 0s ease-in 1.5s;
+      animation-fill-mode: forwards;
+      background-color: black;
+    }
+    @keyframes Talha{
+      to{
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+    }
+    .T{right: 170px;
       position: relative;
       animation-name: T;
       animation-duration: .5s;
@@ -909,12 +1041,16 @@
   }
   }
   @media only screen and (max-width: 423px){
+    body {
+      background-color: aliceblue;
+      width: 423px;
+    }
     .Talha{
       color: rgb(255, 255, 255);
       font-size: 4rem;
       font-family: sans-serif;
       line-height: 100vh;
-      animation: Talha 0s ease-in 100000.5s;
+      animation: Talha 0s ease-in 1.5s;
       animation-fill-mode: forwards;
       background-color: black;
     }
@@ -1457,7 +1593,7 @@
     font-size: 4rem;
     font-family: sans-serif;
     line-height: 100vh;
-    animation: Talha 0s ease-in 10000.2s;
+    animation: Talha 0s ease-in 1.2s;
     animation-fill-mode: forwards;
     background-color: black;
   }
